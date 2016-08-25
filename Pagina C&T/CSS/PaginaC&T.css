@@ -1,10 +1,10 @@
 body {
   
-background: -webkit-gradient(linear, left top, left bottom, from(#CCCCCC), to(#000000));
-
-background: -moz-linear-gradient(top, #CCCCCC, #000000);
-
-filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#CCCCCC', EndColorStr='#000000'); 
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+15,2989d8+50,1e5799+84&1+0,0.8+16,0+17,0+66,0+78,0+78,1+79,0.8+100 */
+background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(30,87,153,0.81) 15%, rgba(30,88,155,0.8) 16%, rgba(30,89,157,0) 17%, rgba(41,137,216,0) 50%, rgba(36,113,186,0) 66%, rgba(32,96,164,0) 78%, rgba(32,95,162,1) 79%, rgba(30,87,153,0.95) 84%, rgba(30,87,153,0.8) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(30,87,153,0.81) 15%,rgba(30,88,155,0.8) 16%,rgba(30,89,157,0) 17%,rgba(41,137,216,0) 50%,rgba(36,113,186,0) 66%,rgba(32,96,164,0) 78%,rgba(32,95,162,1) 79%,rgba(30,87,153,0.95) 84%,rgba(30,87,153,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(30,87,153,0.81) 15%,rgba(30,88,155,0.8) 16%,rgba(30,89,157,0) 17%,rgba(41,137,216,0) 50%,rgba(36,113,186,0) 66%,rgba(32,96,164,0) 78%,rgba(32,95,162,1) 79%,rgba(30,87,153,0.95) 84%,rgba(30,87,153,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#cc1e5799',GradientType=0 ); /* IE6-9 */
 
 
 
@@ -14,7 +14,7 @@ filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=
 
 .div{
 
-background-color:;
+background-color:white;
 float:center;
 width:70%;
 border: 5px solid #7D26CD; 
@@ -26,7 +26,6 @@ height:105px;
 
 float:left;
 border: 5px solid #7D26CD; 
-
 }
 
 .divbodyindex{
@@ -54,7 +53,7 @@ border: 5px solid #7D26CD;
 width:70%;
 height:950px;
 border-top:none;
-border: 5px solid #7D26CD; 
+ 
 	
 }
 .divbodycadastrosupermercado{
@@ -64,7 +63,7 @@ border-color:#00CDCD;
 width:70%;
 height:1150px;
 border-top:none;
-border: 5px solid #7D26CD; 
+ 
 	
 }
 .divbodycadastrosupermercado2{
@@ -72,7 +71,7 @@ border: 5px solid #7D26CD;
 width:70%;
 height:500px;
 border-top:none;
-border: 5px solid #7D26CD; 
+ 
 	
 }
 .divbodyminhaconta{
@@ -80,18 +79,18 @@ border: 5px solid #7D26CD;
 width:70%;
 height:500px;
 border-top:none;
-border: 5px solid #7D26CD; 
+ 
 	
 }
 
 .divhome{
 text-align:center;
 float:center;
-border-color:#00CDCD;
+
 width:50%;
 height:500px;
 border-top:none;
-border: 5px solid #7D26CD; 
+ 
 	
 }
 
