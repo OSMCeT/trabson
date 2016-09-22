@@ -24,12 +24,12 @@ body {
 /* Background images are set within the HTML using inline CSS, not here */
 
 .fill {
-    width: 100%;
+    width: 75%;
     height: 100%;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
+    background-position: right;
+    -webkit-background-size: center;
+    -moz-background-size: center;
+         background-repeat:no-repeat;   
     -o-background-size: cover;
 }
 
