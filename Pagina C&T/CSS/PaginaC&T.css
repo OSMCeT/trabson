@@ -1,9 +1,6 @@
 body {
   
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+15,2989d8+50,1e5799+84&1+0,0.8+16,0+17,0+66,0+78,0+78,1+79,0.8+100 */
-background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(30,87,153,0.81) 15%, rgba(30,88,155,0.8) 16%, rgba(30,89,157,0) 17%, rgba(41,137,216,0) 50%, rgba(36,113,186,0) 66%, rgba(32,96,164,0) 78%, rgba(32,95,162,1) 79%, rgba(30,87,153,0.95) 84%, rgba(30,87,153,0.8) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(30,87,153,0.81) 15%,rgba(30,88,155,0.8) 16%,rgba(30,89,157,0) 17%,rgba(41,137,216,0) 50%,rgba(36,113,186,0) 66%,rgba(32,96,164,0) 78%,rgba(32,95,162,1) 79%,rgba(30,87,153,0.95) 84%,rgba(30,87,153,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(30,87,153,0.81) 15%,rgba(30,88,155,0.8) 16%,rgba(30,89,157,0) 17%,rgba(41,137,216,0) 50%,rgba(36,113,186,0) 66%,rgba(32,96,164,0) 78%,rgba(32,95,162,1) 79%,rgba(30,87,153,0.95) 84%,rgba(30,87,153,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#cc1e5799',GradientType=0 ); /* IE6-9 */
 
 
@@ -11,6 +8,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 
 }
 
+input{
+	
+	border-radius:50px;
+	
+}
 
 .div{
 
@@ -109,8 +111,9 @@ border: 5px solid #7D26CD;
 border-color:#00CDCD;
 float:center-right;
 width:40%;
-height:800px;
-border: 5px solid #7D26CD; 
+height:450px;
+border:3px solid black;
+border-radius:50px;
 	
 }
 
@@ -198,24 +201,25 @@ border-radius:0px;
 }
 
 
-.h1{
+label{
 text-align:center;
 color:#EE2C2C;
-font-size:40px;
+font-size:12px;
 	
 }
 .h1login{
 	
 text-align:center;
 color:#EE2C2C;
-font-size:20px;
+font-size:15px;
 	
 }
 
 .h1cadastro{
+	
 text-align:center;
 color:#EE2C2C;
-font-size:20px;
+font-size:10px;
 	
 }
 
@@ -223,7 +227,7 @@ font-size:20px;
 	
 text-align:center;
 color:#EE2C2C;
-font-size:20px;
+font-size:10px;
 display: inline;	
 
 }
