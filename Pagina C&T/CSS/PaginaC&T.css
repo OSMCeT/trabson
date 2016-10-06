@@ -106,6 +106,17 @@ border: 5px solid #7D26CD;
 	
 }
 
+.divlogin{
+
+border-color:#00CDCD;
+float:center-right;
+width:40%;
+height:300px;
+border:3px solid black;
+border-radius:50px;
+	
+}
+
 .divcadastro{
 
 border-color:#00CDCD;
@@ -122,7 +133,7 @@ border-radius:50px;
 border-color:#00CDCD;
 float:center-right;
 width:40%;
-height:655px;
+height:550px;
 border:3px solid black;
 border-radius:50px;
 	
@@ -134,7 +145,7 @@ border-radius:50px;
 border-color:#00CDCD;
 float:center-right;
 width:40%;
-height:950px;
+height:1000px;
 border:3px solid black;
 border-radius:50px;
 	
